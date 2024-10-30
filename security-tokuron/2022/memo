@@ -1,0 +1,13 @@
+ 1040  ./do.sh list-birch > tmp
+ 1041  more tmp
+ 1042  cat tmp | | sort -t, -k2 |
+ 1043  cat tmp | | sort -t, -k2 
+ 1044  cat tmp | sort -t, -k2
+ 1045  cat tmp | sort -t, -k3
+ 1046  cat tmp | sort -t, -k3 > tmp2
+
+ 1057  ./do.sh list-speactral > tmp3
+ 1058  more 
+ 1059  more memo
+ 1060  cat tmp3 | sort -t, -k3
+ 1061  cat tmp3 | sort -t, -k3 > tmp4

@@ -79,6 +79,6 @@ def plot_coordinates_with_isolation_forest_and_boundary(csv_file_path, db_path, 
     plt.show()
 
 # 使用例
-csv_file_path = 'input_ips.csv'  # 読み込むIPアドレスのCSVファイル
+csv_file_path = 'latlng.csv'  # 読み込むIPアドレスのCSVファイル
 db_path = 'GeoLite2-City.mmdb'   # GeoLite2-City.mmdb のファイルパス
 output_csv_path = 'latlng_output_isolation.csv'

@@ -56,7 +56,7 @@ def run_dbscan(file_name, eps=0.001, min_samples=10):
     output_file = f'dbscan_result_{base_name}'
     df.to_csv(output_file, index=False)
 
-    plot_clusters(df)
+    #plot_clusters(df)
 
 def plot_clusters(df):
     plt.figure(figsize=(10, 6))

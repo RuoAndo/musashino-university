@@ -1,3 +1,4 @@
+<pre>
 12/5
 10 線形→非線形 敵対的トレーニング（FGSM）
 9. 線形→非線形 敵対的サンプル（FGSM)
@@ -21,3 +22,4 @@ PR/ROC curve (4) - PCA (unsupervised)
 PR/ROC curve (3) - XGBoost
 PR/ROC curve (2) - random forest
 PR/ROC curve (1) - logistic regression
+</pre>
